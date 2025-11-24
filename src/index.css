@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global base styles */
+@layer base {
+  body {
+    @apply bg-light-gray dark:bg-background-dark text-deep-blue dark:text-white transition-colors duration-300;
+  }
+}
